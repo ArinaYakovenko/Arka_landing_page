@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+    --color1: #3D5675;
+    --color2: #FFFFFF;
+    --color3: #011F3A;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,11 +25,11 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    color: #011F3A;
+    color: var(--color3);
 }
 
 button {
-    color: #fff;
+    color: var(--color2);
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 40px;
@@ -35,7 +51,7 @@ li::before {
     display: block;
     width: 0;
     height: 2px;
-    background-color: #011F3A;
+    background-color: var(--color3);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -56,12 +72,12 @@ li:hover::before {
     text-transform: uppercase;
     max-width: 1400px;
     height: 61px;
-    background-color: #fff;
+    background-color: var(--color2);
     padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #011F3A;
+    color: var(--color3);
 }
 
 .header-logo {
@@ -103,19 +119,17 @@ li:hover::before {
     font-size: 48px;
     font-weight: normal;
     padding-bottom: 30px;
-    margin: 0;
 }
 
 .strat-design-info p {
     max-width: 277px;
     font-size: 15px;
-    margin: 0;
     padding-bottom: 20px;
 }
 
 .strat-design-button {
     font-size: 14px;
-    background-color: #3D5675;
+    background-color: var(--color1);
 }
 
 .strat-design-button:hover {
@@ -126,9 +140,103 @@ li:hover::before {
     background-color: #354861;
 }
 
-
-.rectangle {
+.boxes {
     position: absolute;
     top: 50px;
     right: 0;
+}
+
+.sponsors {
+    height: 120px;
+    color: #A1A1A1;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors-block {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.sponsors-block p {
+    max-width: 80px;
+}
+
+.products {
+    background-color: #EEEEEE;
+}
+
+.product-customize {
+    padding-top: 50px;
+}
+
+.product-customize-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.product-customize-title p {
+    font-size: 32px;
+}
+
+.product-customize-title button {
+    background-color: var(--color1);
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.product-customize-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-customize-box {
+    width: 400px;
+    background-color: var(--color2);
+    border: 1px solid #EDEDED;
+    padding: 5px 15px;
+}
+
+.product-customize-box h4 {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--color3);
+}
+
+.product-customize-box .info {
+    padding-top: 10px;
+    display: flex;
+    font-size: 15px;
+    color: #A1A1A1;
+    column-gap: 70px;
+    line-height: 24px;
+}
+
+.info .price {
+    min-width: 77px;
+}
+
+.product-customize-footer {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.product-customize-footer p {
+    font-size: 15px;
+    color: #A1A1A1;
+}
+
+.product-customize-footer button {
+    background-color: var(--color2);
+    color: var(--color1);
+    font-weight: bold;
+    padding: 13px 25px;
 }
