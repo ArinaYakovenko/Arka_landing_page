@@ -297,15 +297,17 @@ li:hover::before {
     padding: 90px 0;
 }
 
-.advantage h1{
+.advantage h1 {
     font-size: 32px;
     padding-bottom: 60px;
     color: var(--color3);
 }
+
 .advantage-section {
     display: flex;
     justify-content: space-between;
 }
+
 .advantage-block {
     display: flex;
     flex-direction: column;
@@ -313,15 +315,68 @@ li:hover::before {
     width: 254px;
 }
 
-.advantage-block h3{
+.advantage-block h3 {
     font-size: 18px;
     line-height: 23px;
     color: var(--color3);
     padding-bottom: 20px;
 }
 
-.advantage-block p{
+.advantage-block p {
     font-size: 15px;
     line-height: 24px;
     color: #A1A1A1;
+}
+
+.request {
+    height: 610px;
+    padding: 0 50px;
+    margin: 90px 0;
+    background-color: #FFCA3A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.request img {
+    width: 210px;
+    margin-bottom: 20px;
+}
+
+.request h1 {
+    color: var(--color3);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.request p {
+    color: var(--color1);
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.request button {
+    background-color: var(--color2);
+    color: var(--color1);
+    width: 200px;
+    font-size: 12px;
+    padding: 15px 25px;
+    font-weight: 700;
+}
+
+.request-block {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.ryska {
+    border-left: 1px solid #A1A1A1;
+    height: 410px;
+    width: 1px;
 }
