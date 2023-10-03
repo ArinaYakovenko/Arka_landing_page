@@ -240,3 +240,88 @@ li:hover::before {
     font-weight: bold;
     padding: 13px 25px;
 }
+
+.custom-boxes {
+    background-color: #72BDA3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin: 80px 0;
+}
+
+.custom-boxes h1 {
+    font-size: 32px;
+    line-height: 41px;
+    color: var(--color3);
+    font-weight: normal;
+}
+
+.custom-boxes button {
+    background-color: var(--color1);
+    margin-bottom: 70px;
+}
+
+.benefits {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 50px 0;
+}
+
+.benefits-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits-block h3 {
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: var(--color3);
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.benefits-block p {
+    text-align: center;
+    max-width: 190px;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--color1);
+}
+
+.advantage {
+    padding: 90px 0;
+}
+
+.advantage h1{
+    font-size: 32px;
+    padding-bottom: 60px;
+    color: var(--color3);
+}
+.advantage-section {
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 254px;
+}
+
+.advantage-block h3{
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--color3);
+    padding-bottom: 20px;
+}
+
+.advantage-block p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1A1A1;
+}
