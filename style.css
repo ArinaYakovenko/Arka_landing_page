@@ -380,3 +380,78 @@ li:hover::before {
     height: 410px;
     width: 1px;
 }
+
+.marchants {
+    text-align: center;
+    padding: 80px 0 50px 0;
+}
+
+.marchants h1 {
+    padding-bottom:60px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.marchants-block {
+    background-color: var(--color2);
+}
+
+.marchants-rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 314px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.marchants-reviews {
+    display: flex;
+}
+
+.reviews-fotos {
+    display: flex;
+}
+
+.reviews-block {
+    margin: auto;
+    width: 395px;
+}
+
+.reviews-block p {
+    text-align: left;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-info h2{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.user-info p{
+    font-size: 15px;
+    color: #A1A1A1;
+    padding: 0;
+}
+
+.user button{
+    padding: 13px 25px;
+    color: var(--color1);
+    font-weight: 700;
+}
